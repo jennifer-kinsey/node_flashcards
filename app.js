@@ -5,6 +5,10 @@ const bodyParser = require('body-parser');
 const cookieParser = require('cookie-parser');
 const app = express();
 
+// set the port of our application
+// process.env.PORT lets the port be set by Heroku
+var port = process.env.PORT || 3000;
+
 app.use(bodyParser.urlencoded({ extended: false}));
 app.use(cookieParser());
 app.use('/static', express.static('public'));
@@ -42,6 +46,6 @@ app.use((err, req, res, next) =>{
   res.render('error', err);
 });
 
-app.listen(3000, () =>{
-  console.log('the application is running at localhost:3000');
+app.listen(port, () =>{
+  console.log('the application is running at localhost:' + port);
 });

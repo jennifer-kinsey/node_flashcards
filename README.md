@@ -9,7 +9,8 @@ It's a flashcard app featuring Pug templating, basic error handling, routing in 
 
 ## Requirements:
 * NodeJS
-* Nodemon
+* NPM
+* Nodemon (optional)
 
 ## Installation
 

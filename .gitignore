@@ -1,3 +1,5 @@
 .gitignore
 node_modules
 newrelic.js
+/*.env
+npm-debug.log

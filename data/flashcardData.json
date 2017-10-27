@@ -1,31 +1,31 @@
 {
     "data": {
-        "title": "JavaScript Flashcards",
+        "title": "New Relic Flashcards",
         "cards": [
             {
-                "question": "What language are Express apps written in?",
-                "hint": "It starts with a \"J\"",
-                "answer": "JavaScript"
+                "question": "Name a few ways to learn more about New Relic",
+                "hint": "Go back to school",
+                "answer": "New Relic University, Webcasts, Workshops, FutureStack, Documentation, and Technical Support Forums"
             },
             {
-                "question": "What is one way a website can store data in a user's browser?",
-                "hint": "They are delicious with milk",
-                "answer": "Cookies"
+                "question": "What does APM Stand for?",
+                "hint": "Application...",
+                "answer": "Application Performance Monitoring or MAGIC"
             },
             {
-                "question": "What is a common way to shorten the response object's name inside middleware?",
-                "hint": "It has the same abbreviation as \"resolution\"",
-                "answer": "res"
+                "question": "What languages are supported by New Relic?",
+                "hint": "There are 7 and growing",
+                "answer": "Go, PHP, NodeJS, Ruby, Java, .NET, and Python"
             },
             {
-                "question": "How many different values can booleans have?",
-                "hint": "Think: binary",
-                "answer": "2"
+                "question": "Which NodeJS frameworks are supported at New Relic?",
+                "hint": "Think: lightweight and quick",
+                "answer": "Express 4.6.0+, Restify, Hapi, Kraken, Connect 1 and Connect 2(router not supported)"
             },
             {
-                "question": "Which HTML element can contain JavaScript?",
-                "hint": "It starts with an \"s\"",
-                "answer": "<script>"
+                "question": "What is the Apdex score in New Relic?",
+                "hint": "It involves user satisfaction",
+                "answer": "a measure of response time, from asset request to fulfillment to requestor, based against a threshold set by within New Relic settings. It measures the ratio of satisfactory to unsatisfactory response times based upon that threshold."
             }
         ]
     }

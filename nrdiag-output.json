@@ -1,0 +1,397 @@
+[
+	{
+		"Identifier": {
+			"Name": "Collect",
+			"Category": "Base",
+			"Subcategory": "Config"
+		},
+		"Override": false,
+		"Result": {
+			"Status": "Success",
+			"Summary": "There were 2 file(s) found",
+			"URL": "",
+			"FilesToCopy": [
+				{
+					"Path": "/Users/kinsey/desktop/flashcards/newrelic.js",
+					"Name": "newrelic.js",
+					"Streamed": false
+				},
+				{
+					"Path": "/Users/kinsey/desktop/flashcards/node_modules/newrelic/newrelic.js",
+					"Name": "newrelic.js",
+					"Streamed": false
+				}
+			],
+			"Payload": [
+				{
+					"FileName": "newrelic.js",
+					"FilePath": "/Users/kinsey/desktop/flashcards/"
+				},
+				{
+					"FileName": "newrelic.js",
+					"FilePath": "/Users/kinsey/desktop/flashcards/node_modules/newrelic/"
+				}
+			]
+		}
+	},
+	{
+		"Identifier": {
+			"Name": "Validate",
+			"Category": "Base",
+			"Subcategory": "Config"
+		},
+		"Override": false,
+		"Result": {
+			"Status": "Success",
+			"Summary": "\nSuccessfully parsed config file - /Users/kinsey/desktop/flashcards/newrelic.js\nSuccessfully parsed config file - /Users/kinsey/desktop/flashcards/node_modules/newrelic/newrelic.js",
+			"URL": "",
+			"FilesToCopy": null,
+			"Payload": [
+				{
+					"FileName": "newrelic.js",
+					"FilePath": "/Users/kinsey/desktop/flashcards/",
+					"Status": "Success"
+				},
+				{
+					"FileName": "newrelic.js",
+					"FilePath": "/Users/kinsey/desktop/flashcards/node_modules/newrelic/",
+					"Status": "Success"
+				}
+			]
+		}
+	},
+	{
+		"Identifier": {
+			"Name": "Agent",
+			"Category": "Node",
+			"Subcategory": "Config"
+		},
+		"Override": false,
+		"Result": {
+			"Status": "Success",
+			"Summary": "Node agent identified as present on system",
+			"URL": "",
+			"FilesToCopy": null,
+			"Payload": [
+				{
+					"FileName": "newrelic.js",
+					"FilePath": "/Users/kinsey/desktop/flashcards/",
+					"Status": "Success"
+				},
+				{
+					"FileName": "newrelic.js",
+					"FilePath": "/Users/kinsey/desktop/flashcards/node_modules/newrelic/",
+					"Status": "Success"
+				},
+				{
+					"FileName": "newrelic.js",
+					"FilePath": "/Users/kinsey/desktop/flashcards/",
+					"Status": "Success"
+				},
+				{
+					"FileName": "newrelic.js",
+					"FilePath": "/Users/kinsey/desktop/flashcards/node_modules/newrelic/",
+					"Status": "Success"
+				}
+			]
+		}
+	},
+	{
+		"Identifier": {
+			"Name": "Agent",
+			"Category": "PHP",
+			"Subcategory": "Config"
+		},
+		"Override": false,
+		"Result": {
+			"Status": "None",
+			"Summary": "No PHP agent found on system",
+			"URL": "",
+			"FilesToCopy": null,
+			"Payload": null
+		}
+	},
+	{
+		"Identifier": {
+			"Name": "Agent",
+			"Category": "Ruby",
+			"Subcategory": "Config"
+		},
+		"Override": false,
+		"Result": {
+			"Status": "None",
+			"Summary": "No Ruby agent found on system",
+			"URL": "",
+			"FilesToCopy": null,
+			"Payload": null
+		}
+	},
+	{
+		"Identifier": {
+			"Name": "Collect",
+			"Category": "Ruby",
+			"Subcategory": "Config"
+		},
+		"Override": false,
+		"Result": {
+			"Status": "None",
+			"Summary": "",
+			"URL": "",
+			"FilesToCopy": null,
+			"Payload": null
+		}
+	},
+	{
+		"Identifier": {
+			"Name": "Agent",
+			"Category": "Infra",
+			"Subcategory": "Config"
+		},
+		"Override": false,
+		"Result": {
+			"Status": "None",
+			"Summary": "No Infra agent found on system",
+			"URL": "",
+			"FilesToCopy": null,
+			"Payload": null
+		}
+	},
+	{
+		"Identifier": {
+			"Name": "Copy",
+			"Category": "Base",
+			"Subcategory": "Log"
+		},
+		"Override": false,
+		"Result": {
+			"Status": "Success",
+			"Summary": "There were 1 file(s) found",
+			"URL": "",
+			"FilesToCopy": [
+				{
+					"Path": "/Users/kinsey/desktop/flashcards/newrelic_agent.log",
+					"Name": "newrelic_agent.log",
+					"Streamed": false
+				}
+			],
+			"Payload": [
+				{
+					"FileName": "newrelic_agent.log",
+					"FilePath": "/Users/kinsey/desktop/flashcards/"
+				}
+			]
+		}
+	},
+	{
+		"Identifier": {
+			"Name": "Running",
+			"Category": "PHP",
+			"Subcategory": "Daemon"
+		},
+		"Override": false,
+		"Result": {
+			"Status": "None",
+			"Summary": "PHP was not detected on this host.",
+			"URL": "",
+			"FilesToCopy": null,
+			"Payload": null
+		}
+	},
+	{
+		"Identifier": {
+			"Name": "Detect",
+			"Category": "Synthetics",
+			"Subcategory": "Minion"
+		},
+		"Override": false,
+		"Result": {
+			"Status": "None",
+			"Summary": "synthetics-minion.jar not found. Not running on synthetics private minion.",
+			"URL": "",
+			"FilesToCopy": null,
+			"Payload": null
+		}
+	},
+	{
+		"Identifier": {
+			"Name": "ConfigParse",
+			"Category": "Synthetics",
+			"Subcategory": "Minion"
+		},
+		"Override": false,
+		"Result": {
+			"Status": "None",
+			"Summary": "Not running on synthetics minion. No config to parse",
+			"URL": "",
+			"FilesToCopy": null,
+			"Payload": null
+		}
+	},
+	{
+		"Identifier": {
+			"Name": "Agent",
+			"Category": "Java",
+			"Subcategory": "Config"
+		},
+		"Override": false,
+		"Result": {
+			"Status": "None",
+			"Summary": "No Java agent found on system",
+			"URL": "",
+			"FilesToCopy": null,
+			"Payload": null
+		}
+	},
+	{
+		"Identifier": {
+			"Name": "Agent",
+			"Category": "Python",
+			"Subcategory": "Config"
+		},
+		"Override": false,
+		"Result": {
+			"Status": "None",
+			"Summary": "No Python agent found on system",
+			"URL": "",
+			"FilesToCopy": null,
+			"Payload": null
+		}
+	},
+	{
+		"Identifier": {
+			"Name": "Version",
+			"Category": "Ruby",
+			"Subcategory": "Agent"
+		},
+		"Override": false,
+		"Result": {
+			"Status": "None",
+			"Summary": "",
+			"URL": "",
+			"FilesToCopy": null,
+			"Payload": null
+		}
+	},
+	{
+		"Identifier": {
+			"Name": "Version",
+			"Category": "Infra",
+			"Subcategory": "Agent"
+		},
+		"Override": false,
+		"Result": {
+			"Status": "None",
+			"Summary": "",
+			"URL": "",
+			"FilesToCopy": null,
+			"Payload": null
+		}
+	},
+	{
+		"Identifier": {
+			"Name": "ProxyDetect",
+			"Category": "Base",
+			"Subcategory": "Config"
+		},
+		"Override": false,
+		"Result": {
+			"Status": "None",
+			"Summary": "",
+			"URL": "",
+			"FilesToCopy": null,
+			"Payload": null
+		}
+	},
+	{
+		"Identifier": {
+			"Name": "ReportingTo",
+			"Category": "Base",
+			"Subcategory": "Log"
+		},
+		"Override": false,
+		"Result": {
+			"Status": "Success",
+			"Summary": "Found a reporting to.",
+			"URL": "",
+			"FilesToCopy": null,
+			"Payload": [
+				{}
+			]
+		}
+	},
+	{
+		"Identifier": {
+			"Name": "HordeConnect",
+			"Category": "Synthetics",
+			"Subcategory": "Minion"
+		},
+		"Override": false,
+		"Result": {
+			"Status": "None",
+			"Summary": "Not running on private minion",
+			"URL": "",
+			"FilesToCopy": null,
+			"Payload": null
+		}
+	},
+	{
+		"Identifier": {
+			"Name": "Version",
+			"Category": "Java",
+			"Subcategory": "Agent"
+		},
+		"Override": false,
+		"Result": {
+			"Status": "None",
+			"Summary": "",
+			"URL": "",
+			"FilesToCopy": null,
+			"Payload": null
+		}
+	},
+	{
+		"Identifier": {
+			"Name": "Connect",
+			"Category": "Base",
+			"Subcategory": "Collector"
+		},
+		"Override": false,
+		"Result": {
+			"Status": "Success",
+			"Summary": "Status Code = 200 OK Body = mongrel ==\u003e up (true)\n",
+			"URL": "",
+			"FilesToCopy": null,
+			"Payload": null
+		}
+	},
+	{
+		"Identifier": {
+			"Name": "SysPropCollect",
+			"Category": "Java",
+			"Subcategory": "JVM"
+		},
+		"Override": false,
+		"Result": {
+			"Status": "None",
+			"Summary": "Java Agent was not detected on this host.",
+			"URL": "",
+			"FilesToCopy": null,
+			"Payload": []
+		}
+	},
+	{
+		"Identifier": {
+			"Name": "Version",
+			"Category": "Java",
+			"Subcategory": "JVM"
+		},
+		"Override": false,
+		"Result": {
+			"Status": "None",
+			"Summary": "",
+			"URL": "",
+			"FilesToCopy": null,
+			"Payload": null
+		}
+	}
+]

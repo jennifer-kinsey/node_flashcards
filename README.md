@@ -20,8 +20,8 @@ And I also experimented with the New Relic APM tool. (Screenshots below)
 
 ## Installation
 
-* `git clone <repository-url>` this repository
-* `cd message-board`
+* `git clone https://github.com/jennifer-kinsey/node_flashcards.git` this repository
+* `cd node_flashcards`
 * `npm install`
 * `node app.js`
 *  the app will be serving on http://localhost:3000/
